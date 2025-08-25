@@ -16,6 +16,7 @@ Please build me a note taking app in Node.js. Make it allow users to register an
 - **Real-time Updates**: Notes are updated in real-time across the interface
 - **Secure**: Password hashing with bcrypt and JWT-based authentication
 - **Database**: PostgreSQL database with proper relationships and constraints
+- **MCP Servers**: Includes Playwright and GitMCP Express docs for easy agentic coding
 
 ## Tech Stack
 
@@ -193,6 +194,14 @@ docker-compose down -v
 3. Make your changes
 4. Test thoroughly
 5. Submit a pull request
+
+## MCP
+
+You can scan for the security of MCP servers with [mcp-scan](https://github.com/invariantlabs-ai/mcp-scan)
+
+```sh
+uvx mcp-scan .cursor/mcp.json
+```
 
 ## License
 
