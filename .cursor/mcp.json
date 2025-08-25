@@ -1,0 +1,13 @@
+{
+    "mcpServers": {
+        "express Docs": {
+            "url": "https://gitmcp.io/express/express"
+          },
+      "playwright": {
+        "command": "npx",
+        "args": [
+          "@playwright/mcp@latest"
+        ]
+      }
+    }
+  }
